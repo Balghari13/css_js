@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container-slider{
+    width: 500px;
+    height: 300px;
+    overflow: hidden; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: relative;
+}
+.container-image{
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+.btn{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+    cursor: pointer;
+    
+}
+.btn.next{
+    right: 10px;
+}
+.btn.prev{
+    left: 10px;
+}
+.btn:hover{
+    opacity: 1;
+}
