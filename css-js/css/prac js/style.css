@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #212121;
+  color: #fff
+}
+
+.container label{
+  width: 40px;
+  height: 14px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  position: relative;border-radius: 20px;
+padding: 2px;
+}
+#check{
+  position: absolute;
+  opacity: 0;
+}
+#check:checked + label{
+  background-color: purple;
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+ transition: all 0.2s ease-in-out;
+ left: 2px;
+ position: absolute;
+}
+
+#check:checked + label .circle{
+  
+  left: 100%;
+  transform: translate(-120%);
+}

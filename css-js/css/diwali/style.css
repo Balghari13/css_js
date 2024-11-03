@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+.hero-section {
+  /* min-height: 100vh; */
+  background-image: url(./images/orange-backdrop.png);
+  background-size: cover;
+}
+.jhalar {
+  width: 220px;
+  margin-bottom: -80px;
+}
+.content {
+  margin-left: 12rem;
+}
+
+.hero-section p {
+  max-width: 400px;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.deepak {
+  width: 250px;
+  margin-right: 5px;
+}
+.audion-controller{
+  background-color: #fbd8a4;
+  /* max-width: 500px; */
+  max-width: max-content;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+
+
+.second-section{
+  background-color: orange;
+  /* margin-top: 20px; */
+  padding-block: 1em;
+  padding-inline: 1rem;
+ 
+}
+
+.ganesh{
+  max-width: 800px;
+  width: 100%;
+  display: block;  
+  margin-inline: auto;
+
+}
+.h-divider{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+  max-width: 800px;
+ margin-bottom: 2rem;
+ margin-inline: auto;
+}
+
+.h-line{
+  height: 4px;
+  width: 468px;
+  background-color: #fbd8a4;
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  background-color: #fbd8a4;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.second-section h2{
+  text-align: center;
+
+}
+
+.second-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  max-width: 550px;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 15px;
+  font-size: 2rem;
+}
+.little-girl{
+  width: 280px;
+  margin-left: -80px;
+}
+.two-pic{
+  background-color: white;
+  display: flex;
+  padding: 3rem;
+  border-radius: 24px;
+  margin-inline: auto;
+  max-width: 770px;
+}
+.two-pic img{
+  width: 50%;
+}
+.thanku{
+  max-width: 900px;
+  margin-inline: auto;
+}
+.author{
+  text-align: right;
+}
+
+@media (max-width:840px){
+  .second{
+    display: none;
+  }
+  .first{
+    display: block;
+    margin-left: auto;
+    
+  }
+  .content{
+    margin-left: 1rem;
+  }
+  .jhalar{
+    margin-bottom: 20px;
+  }
+  .card{
+    font-size: 1.3rem;
+    max-width: 330px;
+    padding: 2.1rem;
+  }
+  .little-girl{
+    width: 200px;
+    margin-left: -50px;
+  }
+}
+
+@media(max-width:550px){
+  .m-text,.m-icon{
+    display: none;
+  }
+  /* .audion-controller{
+    max-width: 350px;
+  } */
+  .first{
+    width: 100%;
+    max-width: 340px;
+  }
+  .second-section h2{
+    font-size: 1.2rem;
+  }
+  .card{
+    font-size: 1rem;
+    max-width: 300px;
+    padding: 2rem;
+  }
+  .little-girl{
+    width: 150px;
+    margin-left: -50px;
+  }
+}

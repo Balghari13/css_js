@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: #fff;
+  
+}
+
+.main{
+  background-color: #065FD4;
+  padding: 4rem;
+  background-image: url(images/background.png);
+  background-size: 260px;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: -160px;
+}
+h2{
+  font-size: 3rem;
+  margin: 0;
+}
+
+span{
+  font-size: 1.5rem;
+}
+
+img{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  border: 5px solid wheat;
+  vertical-align: middle;
+}
+img + img {
+  margin-left: -15px;
+}

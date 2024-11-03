@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <div>
+    <div class="logo">
+      <img src="./logo.svg" alt="">
+      <span>Procoder</span>
+    </div>
+    <div class="hamburger">
+
+      
+      <label for="checkbox">
+        <img src="./hamburger.svg" alt="">
+      </label>
+      
+      
+    </div>
+    <input type="checkbox" id="checkbox">
+    <div class="nav-user-container">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li class="course">
+            <span>Course</span>
+            <img src="./dropdown.svg" alt="">
+            <ul>
+              <li>
+                <a href="#">Full Html Course for Beginners</a>
+              </li>
+              <li>
+                <a href="#">Full Css Course for Beginners</a>
+              </li>
+              <li>
+                <a href="#">Full JavaScript Course for Beginners</a>
+              </li>
+              <li>
+                <a href="#">Full React Course for Beginners</a>
+              </li>
+            </ul>
+          </li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      
+      <div class="user">
+        <div class="user-icon">
+          <img src="./avatar.svg" alt="">
+          <div class="circle"></div>
+        </div> 
+        <span>Anurag Singh</span>
+        <label class="close-icon" for="checkbox">
+          <img  src="./close-icon.svg" >
+        </label>
+        
+      </div>
+      
+    </div>
+   
+   </div>
+  </header>
+</body>
+</html>
