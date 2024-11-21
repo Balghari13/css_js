@@ -91,9 +91,10 @@ header{
 
 /*  events  */
 .events{
-  height: 80vh;
+  /* height: 80vh; */
   width: 90%;
   margin: 80px auto;
+  
 }
 .events h1{
   text-align: center;
@@ -105,7 +106,7 @@ header{
   justify-content: space-between;
   /* align-items: center; */
   /* background-color: aqua; */
-
+ 
 }
 .events .col{
    display: flex;
@@ -129,6 +130,7 @@ header{
   background-repeat: no-repeat;
   color: whitesmoke;
   padding: 50px;
+  
 }
 .explore h1{
   font-size: 5vmin;
@@ -162,7 +164,7 @@ header{
   /* background-color: aquamarine; */
 }
 .tours .gallary img{
-  width: 250px;
+  width: 300px;
 }
 .tours .line{
  margin: 0;
@@ -215,13 +217,14 @@ padding: 50px;
  .events .col{
   width: 100%;
   margin: 0 auto;
+  text-align: center;
  
  }
- 
- .explore{
-margin-top: 300px;
-height: 50vh;
+ .events .col img{
+  width: 80%;
  }
+ 
+ 
  .tours .row{
   flex-direction: column;
  
@@ -242,7 +245,7 @@ height: 50vh;
   justify-content: center;
  }
  .tours .gallary img{
-  max-width: 80%;
+  max-width: 90%;
 }
 .footer{
   padding: 20px;
