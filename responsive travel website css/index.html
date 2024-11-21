@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+<nav>
+  <h1 class="logo">LeMiM Travels</h1>
+  <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#" class="ctn">Contact Us</a></li>
+    </ul>
+<img src="./img/menu-btn.png" class="menu-btn">
+</nav>
+  <header>
+    <div class="header-content">
+      <h2>Explore the Corolful World</h2>
+      <div class="line"></div>
+      <h1>A wonderful Gift</h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+   
+  </header>
+
+<section class="events">
+  <h1>Upcoming Events</h1>
+  <div class="line"></div>
+  <div class="row">
+<div class="col">
+  <img src="./img/img1.png" alt="">
+  <h3>Everest Camp Trek</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, praesentium. .</p>
+  <a href="#" class="ctn">Learn More</a>
+</div>
+<div class="col">
+  <img src="./img/img2.png" alt="">
+  <h3>Everest Camp Trek</h3>
+  <p>Lorem ipsum architecto iure, amet nisi asperiores et, vitae qui dolor! Vero odio incidunt aut aperiam.</p>
+  <a href="#" class="ctn">Learn More</a>
+</div>
+  </div>
+</section>
+
+<section class="explore">
+  <h1>Explore the World</h1>
+  <div class="line"></div>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium labore excepturi libero voluptates ratione quod blanditiis ipsa nostrum .</p>
+  <a href="#" class="ctn">Learn More</a>
+</section>
+
+<section class="tours">
+  <div class="row">
+    <div class="col content-col">
+      <h2>Upcoming Tours and Destinations</h2>
+      <div class="line"></div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid modi aspernatur nobis tempore at ipsa suscipit, non ad repellendus aperiam maiores labore possimus atque corrupti reiciendis velit cumque mollitia eius.</p>
+    </div>
+    <div class="col img-col">
+      <div class="gallary ">
+        <img src="./img/img3.png" alt="">
+        <img src="./img/img4.png" alt="">
+        <img src="./img/img5.png" alt="">
+        <img src="./img/img6.png" alt="">
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+<p>123 New Haiderabad Skardu </p>
+<p>Copywrite c 2024 november LeMiM</p>
+</section>
+  <script>
+    const menu = document.querySelector('.menu-btn')
+    const navList = document.querySelector('.nav-links')
+    menu.addEventListener('click',()=>{
+      navList.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
